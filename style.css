@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Noto+Sans&display=swap');
+body{
+	font-family: 'Fuzzy Bubbles', cursive;
+	background-color: #ffffff;
+	padding: 0 3%;
+	margin: 0 ;
+	}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #EE8973;
+	position: sticky;
+	top: 0;
+}
+nav .profile{
+	display: flex;
+	align-items: center;
+}
+nav .profile img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+nav .profile h1{
+	margin-left: 10px;
+	font-size: 35px;
+}
+nav .onglets{
+	display: flex;
+	flex-wrap: wrap;
+}
+nav .onglets p{
+	font-size: 35px;
+	margin-left: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+header {
+	background-color: white;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer{
+	margin-top: 3%;
+}
